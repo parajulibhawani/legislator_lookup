@@ -1,1 +1,7 @@
-{{yield}}
+<form>
+  <div>
+    <label for="zip">Enter Zip</label>
+      {{input value=zip id="zip"}}
+  </div>
+  <button {{action 'zipLookup'}}>Search</button>
+</form>
