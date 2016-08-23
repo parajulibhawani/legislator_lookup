@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('results', {path: '/results/:zip'});
   this.route('about');
   this.route('contact');
+  this.route('committee', {path:'/committee/:legislator.bioguide_id'});
 });
 
 export default Router;
