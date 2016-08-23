@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('committee', {path:'/committee/:legislator.bioguide_id'});
+  this.route('bills', {path:'/bills/:legislator.party'});
 });
 
 export default Router;
